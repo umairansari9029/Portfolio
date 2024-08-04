@@ -1024,8 +1024,9 @@ svg.svg {
 
 .medicine{
 height: 80vh;
-width: 128rem;
+width: 90%;
 position: absolute;
+border-radius: 1rem;
 }
 
 .education-table{

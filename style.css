@@ -783,6 +783,21 @@ svg.svg {
 }
 
 @media (max-width: 900px) {
+  th,td{
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  table{
+    width: 70%;
+    border-collapse: collapse;
+    height: 30rem;
+    /* border-radius: 0.1rem; */
+  }
+
   .nav-ul {
     display: flex;
     justify-content: center;
@@ -887,6 +902,38 @@ svg.svg {
 }
 
 @media (max-width: 550px) {
+  .education-table{
+    width: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* table,th,tr,td{
+    display: block;
+  } */
+
+  tr{
+    margin-bottom: 10px;
+  }
+
+
+  table{
+    width: 100px;
+    border-collapse: collapse;
+    max-height: 3000rem;
+  }
+
+  th,td{
+    color: white;
+    font-size: 0.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
   .contact-form {
     width: 90%;
   }
@@ -1000,6 +1047,33 @@ svg.svg {
 }
 
 @media (max-width: 400px) {
+  .education-table{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  table{
+    width: 90%;
+    border-collapse: collapse;
+    height: 30rem;
+  }
+  
+  th{
+    background-color: rgb(70, 68, 68);
+  }
+  
+  th,td{
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 0.1rem;
+    text-align: center;
+  }
+
   .experience-job-des p {
     font-size: 0.5rem;
   }
@@ -1030,16 +1104,18 @@ border-radius: 1rem;
 }
 
 .education-table{
-  width: 90%;
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 table{
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   height: 30rem;
-  /* border-radius: 0.1rem; */
 }
 
 th{
@@ -1047,11 +1123,9 @@ th{
 }
 
 th,td{
-  /* border-radius: 10rem; */
   color: white;
   font-size: 1.6rem;
   border: 1px solid white;
-  /* background-color: #018901; */
   padding: 0.5rem;
   text-align: center;
 }
